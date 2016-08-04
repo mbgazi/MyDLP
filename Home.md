@@ -1,5 +1,8 @@
 # Welcome to the MyDLP wiki!
-MyDLP'nin network server ve endpoint olmak üzere iki adet kurulması gereken yazılımı bulunmaktadır. Aşağıdaki adresten bu yazılımlar indirilebilir. 
+MyDLP ağ ve son kullanıcı tarafından kritik ve gizli verilerin dışarıya çıkmasını önlemeyi amaçlayan bir veri sızıntısı önleme çözümüdür. 
+MyDLP çözümünün network server ve endpoint olmak üzere iki yazılımı bulunmaktadır. Aşağıdaki adresten bu yazılımlar indirilebilir.
+## MyDLP Network Server Kurulumu
+ 
 [https://www.mydlp.com/getting-started/#download](https://www.mydlp.com/getting-started/#download)
 Bu programlar fiziksel veya sanal makineye kurulabilir. Kurulacak makineler en az aşağıdaki özelliklere sahip olmalıdır:
 ### MyDLP Network Server System Gereksinimleri:
