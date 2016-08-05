@@ -44,5 +44,15 @@ Management konsolunun varsayılan kullanıcı adı: mydlp şifresi: mydlp Bu bil
 * 1GB RAM
 * En az 200 MB boş disk alanı 
 
+## Yönetim Kılavuzu
+### Veri Transfer Kuralı Oluşturma
+MyDLP ajanını son kullanıcı tarafına ekledikten sonra gereksinimler çerçevesinde yönetim arayüzü üzerinde kurallar oluşturulur. 
+Kurallar Veri Transfer (Data Transfer) ve Veri Keşif (Data Discovery) Kuralları olarak iki çeşittir. Politikalar çok sayıda kural eklenebilir. 
+Veri Transfer Kuralı oluşturmak için, "Policy" e tıklanır, Sol tarafta "Policy" altında "General Policy" seçilir. "Add" butonuna tıklanır ve kural oluşturma sihirbazı açılır. 
+Drop-down menüden kural tipi seçilir. 
+12 Çeşit Kural Tipi bulunmaktadır ve aşağıda açıklanmıştır.
+There are 12 types of data transfer control rules that can be configured in MyDLP.
+• Web Kuralları: Ağınıza doğru veya ağınızdan geçen tüm HTTP ve HTTPS trafiğini izler ve kontrol eder. are used to monitor and control all traffic that passes to and from your network over HTTP and HTTPS. 
+• Mail Kuralları: Email ve diğer SMTP trafiğini izler ve kontrol eder.  
 
 
