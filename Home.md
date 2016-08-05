@@ -17,13 +17,22 @@ MyDLP Network Server programı fiziksel veya sanal makineye kurulabilir. Kurulac
 4. Sanal makinenin kurulumu için CDROM/DVDROM seçeneği seçilir. 
 5. Kurulum dili olarak İngilizce seçilir. 
 6. "Install MyDLP Appliance" seçilir. 
-7. 
-2. Select CDROM/DVDROM device from boot menu of your machine.
-3. Start installation using the installation CD .
-4. Select Installation language English.
-5. Select Install MyDLP Appliance.
-6. Select Language English.
-7. Select your country. 
+7. Dil seçilir.
+8. Ülke seçilir.
+9. Klavye tespit seçeneği için "Hayır" seçilir. 
+9. Klavye "origin USA" seçilir.
+10. Klavye layout "USA" seçilir.
+11. Zaman dilimini kontrol et ve düzelt. 
+12. Otomatik kurulum adımları için bekle. 
+13. "OS user name" i belirle. 
+14. "OS user password" u belirle.
+15. "Encrypt home directory" seçeneği için Hayır seçilir.
+16. Otomatik kurulum adımlarını bitirmesi için bekle. 
+17. Daha sonra açılan SSH terminalinde belirlenen OS kullanıcı adı ve parola girilir.
+Yukarıdaki adımlar tamamlandıktan sonra ifconfig yazılarak IP bilgileri kontrol edilir. 
+Yönetim amaçlı kullanılacak makinede managemen IP si yazılarak management konsoluna giriş yapılır. 
+Management konsolunun varsayılan kullanıcı adı:mydlp şifresi: mydlp 
+
 ## MyDLP Endpoint Agent Kurulumu
 ### MyDLP Endpoint Agent Gereksinimleri:
 * Windows XP, Windows 7, Windows 8, Windows 10, Windows Server 2003, Window Server 2008 işletim sistemi(64 bit /32 bit)
