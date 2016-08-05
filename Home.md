@@ -52,6 +52,7 @@ Veri Transfer Kuralı oluşturmak için, "Policy" e tıklanır, Sol tarafta "Pol
 Drop-down menüden kural tipi seçilir. 
 MyDLP yönetim politikalarında çok sayıda kural tipi bulunmaktadır ve aşağıda açıklanmıştır.
 There are 12 types of data transfer control rules that can be configured in MyDLP.
+
 1.	Web Kuralları: Ağınıza doğru veya ağınızdan geçen tüm HTTP ve HTTPS trafiğini izler ve kontrol eder. are used to monitor and control all traffic that passes to and from your network over HTTP and HTTPS. 
 2.	Mail Kuralları: Email ve diğer SMTP trafiğini izler ve kontrol eder.  
 3.	Removable Storage Kuralları: USB hafıza çubukları, çıkarılabilir hard disklerine transfer edilen verileri kontrol eder. 
