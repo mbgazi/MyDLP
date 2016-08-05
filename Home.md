@@ -10,28 +10,33 @@ MyDLP Network Server programı fiziksel veya sanal makineye kurulabilir. Kurulac
 * 256 GB veya daha fazla disk alanı
 * NIC 1000/100,
 * Veya bu özellikleri sağlayan sanal makine 
+
 Ürün yukarıdaki linkten indirilir ve kurulum için aşağıdaki adımlar izlenir: 
-1. İndirilen yazılım .iso formatındadır. 
-2. Fiziksel makineye kurulacaksa .iso bir CDROM/DVDROM a yazılmalıdır.
-3. Sanal makineye kurulacaksa işletim sistemi Ubuntu 64 olan bir sanal makine oluşturulur. 
-4. Sanal makinenin kurulumu için CDROM/DVDROM seçeneği seçilir. 
-5. Kurulum dili olarak İngilizce seçilir. 
-6. "Install MyDLP Appliance" seçilir. 
-7. Dil seçilir.
-8. Ülke seçilir.
-9. Klavye tespit seçeneği için "Hayır" seçilir. 
-9. Klavye "origin USA" seçilir.
-10. Klavye layout "USA" seçilir.
-11. Zaman dilimini kontrol et ve düzelt. 
-12. Otomatik kurulum adımları için bekle. 
-13. "OS user name" i belirle. 
-14. "OS user password" u belirle.
-15. "Encrypt home directory" seçeneği için Hayır seçilir.
-16. Otomatik kurulum adımlarını bitirmesi için bekle. 
-17. Daha sonra açılan SSH terminalinde belirlenen OS kullanıcı adı ve parola girilir.
+
+1.	İndirilen yazılım .iso formatındadır. 
+2.	Fiziksel makineye kurulacaksa .iso dosyası bir CDROM/DVDROM a yazılmalıdır.
+3.	Sanal makineye kurulacaksa işletim sistemi Ubuntu 64 olan boş bir sanal makine oluşturulur. 
+4.	Sanal makinenin kurulumu için CDROM/DVDROM seçeneği seçilir. 
+5.	Yukarıda belirtilen minimum gereksinimler sağlanarak sanal makinenin disk, RAM vb. ayarları yapılandırılır.
+6.	Sanal makinenin network ayarları “bridge mode” seçilir.
+7.	Kurulum dili olarak İngilizce seçilir. 
+8.	"Install MyDLP Appliance" seçilir. 
+9.	Dil seçilir.
+10.	Ülke seçilir.
+11.	Klavye tespit seçeneği için "Hayır" seçilir. 
+12.	Klavye "origin USA" seçilir.
+13.	Klavye layout "USA" seçilir.
+14.	Zaman dilimini kontrol et ve düzelt. 
+15.	Otomatik kurulum adımları için bekle. 
+16.	"OS user name" i belirle. 
+17.	"OS user password" u belirle.
+18.	"Encrypt home directory" seçeneği için Hayır seçilir.
+19.	Otomatik kurulum adımlarını bitirmesi için bekle. 
+20.	Daha sonra açılan SSH terminalinde belirlenen OS kullanıcı adı ve parola girilir.
+
 Yukarıdaki adımlar tamamlandıktan sonra ifconfig yazılarak IP bilgileri kontrol edilir. 
-Yönetim amaçlı kullanılacak makinede managemen IP si yazılarak management konsoluna giriş yapılır. 
-Management konsolunun varsayılan kullanıcı adı:mydlp şifresi: mydlp 
+Yönetim amaçlı kullanılacak makinede management IP si yazılarak management konsoluna giriş yapılır. 
+Management konsolunun varsayılan kullanıcı adı: mydlp şifresi: mydlp Bu bilgileri kullanarak giriş yapılır ve MyDLP ürünü yönetilir. 
 
 ## MyDLP Endpoint Agent Kurulumu
 ### MyDLP Endpoint Agent Gereksinimleri:
