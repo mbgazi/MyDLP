@@ -54,5 +54,13 @@ Drop-down menüden kural tipi seçilir.
 There are 12 types of data transfer control rules that can be configured in MyDLP.
 • Web Kuralları: Ağınıza doğru veya ağınızdan geçen tüm HTTP ve HTTPS trafiğini izler ve kontrol eder. are used to monitor and control all traffic that passes to and from your network over HTTP and HTTPS. 
 • Mail Kuralları: Email ve diğer SMTP trafiğini izler ve kontrol eder.  
+• Removable Storage Kuralları: USB hafıza çubukları, çıkarılabilir hard disklerine transfer edilen verileri kontrol eder. 
+• Removable Storage Inbound Kuralları: Son kullanıcıların çıkarılabilir medyalarından okunan dosya ve verileri kontrol eder. 
+• Screenshot Kuralları: Gizli ve hassas verinin bulunduğu ekranların ekran görüntüsünün alınmasını önler. 
+• Printer Kuralları: Hassas ve gizli verilerin çıktısının alınmasını kontrol eder. a
+• CD-DVD Kuralları: Seçilen kaynak bilgisayarlara takılan CD/DVD gibi optik disklerine yazılan veriyi kontrol eder.
+• Clipboard Kuralları: Seçilen kaynak bilgisayarlar üzerinde kopyala yapıştır işlemlerini kontrol eder. 
+• API Kuralları: MyDLP API ile MyDLP başka uygulamalarla entegre edilebilir. API kuralları ile MyDLP API nin davranışı yönetilir. 
+• Removable Storage Encryption Kuralları: Ağdaki son kullanıcı makinelerine bağlanan çıkarules allow you to encrypt removable devices connected to endpoints on your network.
 
-
+The 'General Rule Edit' dialog allows to configure the general properties of the rule like the name, descriptions and notifications.
