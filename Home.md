@@ -41,11 +41,10 @@ _ifconfig_
 Yönetim amaçlı kullanılacak makinede management IP si yazılarak management konsoluna giriş yapılır. 
 Management konsolunun varsayılan kullanıcı adı: mydlp şifresi: mydlp Bu bilgileri kullanarak giriş yapılır ve MyDLP ürünü yönetilir. 
 
-Deneme lisansı mail adresi vererek alınabilir, maile gelen doğrulama kodunu doğrulattıktan sonra lisans bilgisini elde edilir. 
+Deneme lisansı [https://accounts.comodo.com/account/login](https://accounts.comodo.com/account/login) adresine mail adresiyle kayıt olup, lisans talebinde bulunulur. Emaile gelen doğrulama kodunu doğrulattıktan sonra lisans bilgisi elde edilir. 
 ![](https://cloud.githubusercontent.com/assets/20702065/17457902/4a582366-5c0d-11e6-9a03-c1d484107774.png)
-Daha sonra lisans bilgisi yönetim arayüzüne bağlanıp, aşağıdaki ekrana lisans kodu girilir.  
 ![](https://cloud.githubusercontent.com/assets/20702065/17457913/5e91fa3c-5c0d-11e6-900b-9b68f72c204e.png)
-Lisansın doğrulanması beklenir.
+Daha sonra MyDLP yönetim arayüzüne bağlanıp, aşağıdaki ekrana lisans kodu girilir ve lisansın doğrulanması beklenir.
 ![](https://cloud.githubusercontent.com/assets/20702065/17457919/6b0dd998-5c0d-11e6-88b6-039349ebb5a6.png)
 Lisans doğrulandıktan sonra yönetim arayüzü politikaları belirlemek için hazır hale gelir. 
 <img width="1079" alt="screen shot 2016-07-30 at 19 39 49" src="https://cloud.githubusercontent.com/assets/20702065/17458000/9605bb60-5c0e-11e6-8a9b-1eb947c69435.png">
