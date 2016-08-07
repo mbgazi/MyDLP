@@ -16,12 +16,14 @@ MyDLP Endpoint kurulmadan önce MyDLP Network Server kurulmalıdır. MyDLP Netwo
   * İkinci satırdaki mydlp de server IP si ile değiştirilir. 
   * MYDLP_SHARE=”\\SİZİNSERVERIPniz\downloads”
   * CTRL+X ve Y ye basılarak dosyadan çıkılır. 
+
 ## **EKRAN ÇIKTISI KOYYYYYYY**
 3. Kurulmua başlamadan önce ayrıca bağlı paketlerin kurulumu aşağıdaki adımlar izlenerek gerçekleştirilir.
 MyDLP Serverına SSH ile bağlanılır.
 
   * "sudo mydlp-download-xp-deps" komutu yazılır.
   * İlgili bağlı dosyalar /usr/share/mydlp/endpoint/deps/ dizinine indirilir.
+
 ## **EKRAN ÇIKTISI KOYYYYYYY**
 
 4. MyDLP Endpoint ajanı server üzerindeki "\\mydlpserverip\downloads" dosyadan veya 1. maddedeki yöntem ile indirilir.
@@ -36,4 +38,13 @@ MyDLP Serverına SSH ile bağlanılır.
 8. MyDLP Server Yönetim Konsoluna gidilir, Endpoints sekmesine tıklanır ve kurulan endpointin eklendiğinden emin olunur.
 ![](https://cloud.githubusercontent.com/assets/20702065/17460731/1375fc7e-5c7b-11e6-9795-1ead1fd2943e.png)
 
-Endpoint ajanı kurulduktan ve MyDLP Server Yönetim Konsolunda bu ajan görüldükten sonra, MyDLP Server Yönetim Konsolundan gerekli politikalar oluşturularak MyDLP ajanı kurulu son kullanıcılar izlenir ve veri transferlerinde gerekli aksiyonlar (Geçir, Engelle, Logla, Karantinaya Al vb.) alınır.
+## Proxy Ayarları
+Endpoint ajanı kurulduktan ve MyDLP Server Yönetim Konsolunda bu ajan görüldükten sonra son kullanıcının ağ isteklerinin MyDLP Serverından geçmesi için kullanıcının Proxy ayarlarının değiştirilmesi, Proxy Server olarak MyDlp Server ın IP si verilmelidir.
+Her web tarayıcısında proxy ayarları farklı yöntemlerle yapılandırılır. Örnek olarak Internet Explorer yapılandırılması aşağıdaki gibi gerçekleştirilir. Diğer tarayıcılar için benzer adımlar uygulanabilir.
+Internet Expolorer üzerinde Seçenekler den Bağlantılar sekmesine tıklanır.
+![](https://cloud.githubusercontent.com/assets/20702065/17460733/1a394df4-5c7b-11e6-80e0-82ae436c0a31.png)
+LAN Settings e tıklanır.
+Proxy Server a MyDLP Server ın IPsi yazılır, port olarak da 3128 yazılır. 
+![](https://cloud.githubusercontent.com/assets/20702065/17460734/1d063592-5c7b-11e6-9347-a1cbd080889f.png)
+MyDLP Server Yönetim Konsolundan gerekli politikalar oluşturularak MyDLP ajanı kurulu son kullanıcılar izlenir ve veri transferlerinde gerekli aksiyonlar (Geçir, Engelle, Logla, Karantinaya Al vb.) alınır.
+
