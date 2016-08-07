@@ -34,11 +34,14 @@ MyDLP Network Server programı fiziksel veya sanal makineye kurulabilir. Kurulac
 19.	Otomatik kurulum adımlarını bitirmesi için bekle. 
 20.	Daha sonra açılan SSH terminalinde belirlenen OS kullanıcı adı ve parola girilir.
 
-Yukarıdaki adımlar tamamlandıktan sonra;
+Yukarıdaki adımlar tamamlandıktan sonra SSH terminaline;
+
 _sudo dhclient eth0_
+
 _ifconfig_
- yazılarak IP bilgileri kontrol edilir. 
-Yönetim amaçlı kullanılacak makinede management IP si yazılarak management konsoluna giriş yapılır. 
+
+yazılarak IP bilgileri kontrol edilir. 
+Yönetim amaçlı kullanılacak makinede bir browser açılır ve management IP si yazılarak management konsoluna giriş yapılır. 
 Management konsolunun varsayılan kullanıcı adı: mydlp şifresi: mydlp Bu bilgileri kullanarak giriş yapılır ve MyDLP ürünü yönetilir. 
 
 Deneme lisansı [https://accounts.comodo.com/account/login](https://accounts.comodo.com/account/login) adresine mail adresiyle kayıt olup, lisans talebinde bulunulur. Emaile gelen doğrulama kodunu doğrulattıktan sonra lisans bilgisi elde edilir. 
@@ -53,25 +56,3 @@ Lisans doğrulandıktan sonra yönetim arayüzü politikaları belirlemek için 
 * Windows XP, Windows 7, Windows 8, Windows 10, Windows Server 2003, Window Server 2008 işletim sistemi(64 bit /32 bit)
 * 1GB RAM
 * En az 200 MB boş disk alanı 
-
-## Yönetim Kılavuzu
-### Veri Transfer Kuralı Oluşturma
-MyDLP ajanını son kullanıcı tarafına ekledikten sonra gereksinimler çerçevesinde yönetim arayüzü üzerinde kurallar oluşturulur. 
-Kurallar Veri Transfer (Data Transfer) ve Veri Keşif (Data Discovery) Kuralları olarak iki çeşittir. Politikalar çok sayıda kural eklenebilir. 
-Veri Transfer Kuralı oluşturmak için, "Policy" e tıklanır, Sol tarafta "Policy" altında "General Policy" seçilir. "Add" butonuna tıklanır ve kural oluşturma sihirbazı açılır. 
-Drop-down menüden kural tipi seçilir. 
-MyDLP yönetim politikalarında çok sayıda kural tipi bulunmaktadır ve aşağıda açıklanmıştır.
-There are 12 types of data transfer control rules that can be configured in MyDLP.
-
-1.	Web Kuralları: Ağınıza doğru veya ağınızdan geçen tüm HTTP ve HTTPS trafiğini izler ve kontrol eder. are used to monitor and control all traffic that passes to and from your network over HTTP and HTTPS. 
-2.	Mail Kuralları: Email ve diğer SMTP trafiğini izler ve kontrol eder.  
-3.	Removable Storage Kuralları: USB hafıza çubukları, çıkarılabilir hard disklerine transfer edilen verileri kontrol eder. 
-4.	Removable Storage Inbound Kuralları: Son kullanıcıların çıkarılabilir medyalarından okunan dosya ve verileri kontrol eder.  
-5.	Screenshot Kuralları: Gizli ve hassas verinin bulunduğu ekranların ekran görüntüsünün alınmasını önler. 
-6.	Printer Kuralları: Hassas ve gizli verilerin çıktısının alınmasını kontrol eder. 
-7.	CD-DVD Kuralları: Seçilen kaynak bilgisayarlara takılan CD/DVD gibi optik disklerine yazılan veriyi kontrol eder.
-8.	Clipboard Kuralları: Seçilen kaynak bilgisayarlar üzerinde kopyala yapıştır işlemlerini kontrol eder. 
-9.	API Kuralları: MyDLP API ile MyDLP başka uygulamalarla entegre edilebilir. API kuralları ile MyDLP API nin davranışı yönetilir. 
-10.	Removable Storage Encryption Kuralları: Ağdaki son kullanıcı makinelerine bağlanan çıkarılabilir aygıtların şifrelenmesini sağlar.
-
-The 'General Rule Edit' dialog allows to configure the general properties of the rule like the name, descriptions and notifications.
