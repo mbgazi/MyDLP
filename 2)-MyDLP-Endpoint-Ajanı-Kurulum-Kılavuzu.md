@@ -35,3 +35,5 @@ MyDLP Serverına SSH ile bağlanılır.
 ![](https://cloud.githubusercontent.com/assets/20702065/17460723/fb53d6c0-5c7a-11e6-9040-ff4d3a35b8ba.png)
 8. MyDLP Server Yönetim Konsoluna gidilir, Endpoints sekmesine tıklanır ve kurulan endpointin eklendiğinden emin olunur.
 ![](https://cloud.githubusercontent.com/assets/20702065/17460731/1375fc7e-5c7b-11e6-9795-1ead1fd2943e.png)
+
+Endpoint ajanı kurulduktan ve MyDLP Server Yönetim Konsolunda bu ajan görüldükten sonra, MyDLP Server Yönetim Konsolundan gerekli politikalar oluşturularak MyDLP ajanı kurulu son kullanıcılar izlenir ve veri transferlerinde gerekli aksiyonlar (Geçir, Engelle, Logla, Karantinaya Al vb.) alınır.
