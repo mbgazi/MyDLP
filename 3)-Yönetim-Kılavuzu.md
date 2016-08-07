@@ -1,13 +1,14 @@
 ## Yönetim Kılavuzu
 ### Veri Transfer Kuralı Oluşturma
-MyDLP ajanını son kullanıcı tarafına ekledikten sonra gereksinimler çerçevesinde yönetim arayüzü üzerinde kurallar oluşturulur. 
-Kurallar Veri Transfer (Data Transfer) ve Veri Keşif (Data Discovery) Kuralları olarak iki çeşittir. Politikalar çok sayıda kural eklenebilir. 
-Veri Transfer Kuralı oluşturmak için, "Policy" e tıklanır, Sol tarafta "Policy" altında "General Policy" seçilir. "Add" butonuna tıklanır ve kural oluşturma sihirbazı açılır. 
-Drop-down menüden kural tipi seçilir. 
-MyDLP yönetim politikalarında çok sayıda kural tipi bulunmaktadır ve aşağıda açıklanmıştır.
-There are 12 types of data transfer control rules that can be configured in MyDLP.
+MyDLP Endpoint ajanını son kullanıcı tarafına kurduktan sonra belirlenen politikalar çerçevesinde yönetim arayüzü üzerinde kurallar oluşturulur.
+ 
+Kurallar Veri Transfer (Data Transfer) ve Veri Keşif (Data Discovery) Kuralları olarak iki çeşittir. Politikalara çok sayıda kural eklenebilir. 
 
-1.	Web Kuralları: Ağınıza doğru veya ağınızdan geçen tüm HTTP ve HTTPS trafiğini izler ve kontrol eder. are used to monitor and control all traffic that passes to and from your network over HTTP and HTTPS. 
+Veri Transfer Kuralı oluşturmak için, "Policy" e tıklanır, Sol tarafta "Policy" altında "General Policy" seçilir. "Add" butonuna tıklanır ve kural oluşturma sihirbazı açılır. Drop-down menüden kural tipi seçilir. 
+
+MyDLP yönetim politikalarında çok sayıda kural tipi bulunmaktadır. Aşağıda bu kuralların kullanım amaçları açıklanmıştır.
+
+1.	Web Kuralları: Ağınıza doğru veya ağınızdan geçen tüm HTTP ve HTTPS trafiğini izler ve kontrol eder. 
 2.	Mail Kuralları: Email ve diğer SMTP trafiğini izler ve kontrol eder.  
 3.	Removable Storage Kuralları: USB hafıza çubukları, çıkarılabilir hard disklerine transfer edilen verileri kontrol eder. 
 4.	Removable Storage Inbound Kuralları: Son kullanıcıların çıkarılabilir medyalarından okunan dosya ve verileri kontrol eder.  
@@ -17,5 +18,3 @@ There are 12 types of data transfer control rules that can be configured in MyDL
 8.	Clipboard Kuralları: Seçilen kaynak bilgisayarlar üzerinde kopyala yapıştır işlemlerini kontrol eder. 
 9.	API Kuralları: MyDLP API ile MyDLP başka uygulamalarla entegre edilebilir. API kuralları ile MyDLP API nin davranışı yönetilir. 
 10.	Removable Storage Encryption Kuralları: Ağdaki son kullanıcı makinelerine bağlanan çıkarılabilir aygıtların şifrelenmesini sağlar.
-
-The 'General Rule Edit' dialog allows to configure the general properties of the rule like the name, descriptions and notifications.
