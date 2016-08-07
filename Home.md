@@ -34,11 +34,14 @@ MyDLP Network Server programı fiziksel veya sanal makineye kurulabilir. Kurulac
 19.	Otomatik kurulum adımlarını bitirmesi için bekle. 
 20.	Daha sonra açılan SSH terminalinde belirlenen OS kullanıcı adı ve parola girilir.
 
-Yukarıdaki adımlar tamamlandıktan sonra ifconfig yazılarak IP bilgileri kontrol edilir. 
+Yukarıdaki adımlar tamamlandıktan sonra;
+_sudo dhclient eth0_
+_ifconfig_
+ yazılarak IP bilgileri kontrol edilir. 
 Yönetim amaçlı kullanılacak makinede management IP si yazılarak management konsoluna giriş yapılır. 
 Management konsolunun varsayılan kullanıcı adı: mydlp şifresi: mydlp Bu bilgileri kullanarak giriş yapılır ve MyDLP ürünü yönetilir. 
 
-Deneme lisansını mail adresi vererek alınabilir, maile gelen doğrulama kodunu doğrulattıktan sonra lisans bilgisini elde edilir. 
+Deneme lisansı mail adresi vererek alınabilir, maile gelen doğrulama kodunu doğrulattıktan sonra lisans bilgisini elde edilir. 
 ![](https://cloud.githubusercontent.com/assets/20702065/17457902/4a582366-5c0d-11e6-9a03-c1d484107774.png)
 Daha sonra lisans bilgisi yönetim arayüzüne bağlanıp, aşağıdaki ekrana lisans kodu girilir.  
 ![](https://cloud.githubusercontent.com/assets/20702065/17457913/5e91fa3c-5c0d-11e6-900b-9b68f72c204e.png)
