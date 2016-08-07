@@ -1,8 +1,10 @@
 ## Yönetim Kılavuzu
-### Veri Transfer Kuralı Oluşturma
+
 MyDLP Endpoint ajanını son kullanıcı tarafına kurduktan sonra belirlenen politikalar çerçevesinde yönetim arayüzü üzerinde kurallar oluşturulur.
  
 Kurallar Veri Transfer (Data Transfer) ve Veri Keşif (Data Discovery) Kuralları olarak iki çeşittir. Politikalara çok sayıda kural eklenebilir. 
+
+### Veri Transfer Kuralı Oluşturma
 
 Veri Transfer Kuralı oluşturmak için, "Policy" e tıklanır, Sol tarafta "Policy" altında "General Policy" seçilir. "Add" butonuna tıklanır ve kural oluşturma sihirbazı açılır. Drop-down menüden kural tipi seçilir. 
 
@@ -18,3 +20,5 @@ MyDLP yönetim politikalarında çok sayıda kural tipi bulunmaktadır. Aşağı
 8.	Clipboard Kuralları: Seçilen kaynak bilgisayarlar üzerinde kopyala yapıştır işlemlerini kontrol eder. 
 9.	API Kuralları: MyDLP API ile MyDLP başka uygulamalarla entegre edilebilir. API kuralları ile MyDLP API nin davranışı yönetilir. 
 10.	Removable Storage Encryption Kuralları: Ağdaki son kullanıcı makinelerine bağlanan çıkarılabilir aygıtların şifrelenmesini sağlar.
+
+### Veri Keşif Kuralı Oluşturma
