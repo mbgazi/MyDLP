@@ -25,7 +25,10 @@ Bu bölümde çok sayıda örnek MyDLP Yönetim Politikası oluşturulmuş, son 
 ![](https://cloud.githubusercontent.com/assets/20702065/17469566/1c4f506c-5d3d-11e6-84aa-5d0840ae24a2.png)
 
 * Son kullanıcı makinesinde bir internet tarayıcısı açılır. dlptest.com adresine gidilerek, deneme postları yapılabilir, örnek (sample) veri alınabilir. 
-Sample Data sekmesindeki kredi kartı numaralarından bir kaçı post edilir.
+
+![](https://cloud.githubusercontent.com/assets/20702065/17470895/b8089490-5d48-11e6-99fb-c900b6e7de36.png)
+
+* Sample Data sekmesindeki kredi kartı numaralarından bir kaçı post edilir.
 
 ![](https://cloud.githubusercontent.com/assets/20702065/17470896/b9d62b66-5d48-11e6-89d3-7ea91a8ff38b.png)
 
@@ -33,3 +36,26 @@ Sample Data sekmesindeki kredi kartı numaralarından bir kaçı post edilir.
 
 ![](https://cloud.githubusercontent.com/assets/20702065/17470901/bed4f340-5d48-11e6-93c9-613fd9adfd9d.png)
 ![](https://cloud.githubusercontent.com/assets/20702065/17470904/c0733202-5d48-11e6-9747-d881ab26228f.png)
+
+# Panoya Kopyalama/Yapıştırma Kuralı 
+
+* MyDLP Server Yönetim Arayüzüne bağlanılır. 
+* Policy/General Policy'ye tıklanır. Add butonuna basılır. Kural oluşturma sihirbazı başlar.
+* Clipboard kural tipi seçilir. 
+
+![](https://cloud.githubusercontent.com/assets/20702065/17469581/2d5683a8-5d3d-11e6-9440-2234ab4aa101.png)
+
+* Kaynaklar seçilir
+
+![](https://cloud.githubusercontent.com/assets/20702065/17469583/2f21051e-5d3d-11e6-9068-1255f802f73d.png)
+
+* Hedefler seçilir
+
+* İncelenecek veri tipi seçilir.
+![](https://cloud.githubusercontent.com/assets/20702065/17469564/19d22382-5d3d-11e6-9890-3cf46e6ddba4.png)
+
+* Alınacak aksiyon seçilir. 
+* Son kullanıcı makinesinde bir notepad açılır. Kredi kartı numarası yazılır. Daha sonra bu numaraları kopyalayıp yapıştırmak denenir ve yönetim arayüzünde logun geldiğinden emin olunur.
+
+![](https://cloud.githubusercontent.com/assets/20702065/17470909/c629b612-5d48-11e6-83a5-4c0c4e3dc85d.png)
+
