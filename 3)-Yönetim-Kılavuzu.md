@@ -21,4 +21,11 @@ MyDLP yönetim politikalarında çok sayıda kural tipi bulunmaktadır. Aşağı
 9.	API Kuralları: MyDLP API ile MyDLP başka uygulamalarla entegre edilebilir. API kuralları ile MyDLP API nin davranışı yönetilir. 
 10.	Removable Storage Encryption Kuralları: Ağdaki son kullanıcı makinelerine bağlanan çıkarılabilir aygıtların şifrelenmesini sağlar.
 
+Örnek olarak web kuralı seçilir.
+![](https://cloud.githubusercontent.com/assets/20702065/17469558/0dbb1586-5d3d-11e6-8bbc-48f049844c6a.png)
+
+Kaynak olarak (Source) Network, Endpoint, 
+![](https://cloud.githubusercontent.com/assets/20702065/17469559/0ff1fd74-5d3d-11e6-9bf8-40069b627b72.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17469562/14c72c16-5d3d-11e6-8198-13bdfbada734.png)
+
 ### Veri Keşif Kuralı Oluşturma
