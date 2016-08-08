@@ -59,3 +59,19 @@ Bu bölümde çok sayıda örnek MyDLP Yönetim Politikası oluşturulmuş, son 
 
 ![](https://cloud.githubusercontent.com/assets/20702065/17470909/c629b612-5d48-11e6-83a5-4c0c4e3dc85d.png)
 
+# Printer Kuralı Oluşturmak
+* MyDLP Server Yönetim Arayüzüne bağlanılır. 
+* Policy/General Policy'ye tıklanır. Add butonuna basılır. Kural oluşturma sihirbazı başlar.
+* Printer kural tipi seçilir. 
+![](https://cloud.githubusercontent.com/assets/20702065/17469601/5113492a-5d3d-11e6-8c32-072125fef137.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17469607/5b6e4406-5d3d-11e6-9516-0254e047c57c.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17469612/630b8cb4-5d3d-11e6-9d5a-d4ed9e4fca4f.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17469619/6c2b142c-5d3d-11e6-8cf3-37c0bfe4efd1.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17469621/6f33b980-5d3d-11e6-8cc6-144ebbf20ddd.png)
+
+![](https://cloud.githubusercontent.com/assets/20702065/17470914/cca8f0fc-5d48-11e6-8e67-0994230a676d.png)
+
+![](https://cloud.githubusercontent.com/assets/20702065/17470916/cfaa5304-5d48-11e6-8f9d-0f502c4ecfb6.png)
+
+![](https://cloud.githubusercontent.com/assets/20702065/17470920/cfbe1628-5d48-11e6-9726-aeb1824ccae4.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17470921/d1e515f0-5d48-11e6-8e85-4edb31f7a1b0.png)
