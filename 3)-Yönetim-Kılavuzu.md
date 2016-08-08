@@ -57,3 +57,17 @@ MyDLP yönetim politikalarında çok sayıda kural tipi bulunmaktadır. Aşağı
 **10.	Removable Storage Encryption Kuralları:** Ağdaki son kullanıcı makinelerine bağlanan çıkarılabilir aygıtların şifrelenmesini sağlar.
 
 ### Veri Keşif Kuralı Oluşturma
+
+Veri Keşif kuralları ile kritik ve hassas veri içeren dosyalar keşfedilebilir. Hedefler, keşif zamanı, aranacak bilgi ve alınacak aksiyon keşif kurallarında belirlenebilir.  
+
+Keşif Kuralı oluşturmak için "Policy" e tıklanır ve sol taraftaki menüden "Discovery Policy" seçilir. 
+
+![](https://cloud.githubusercontent.com/assets/20702065/17469902/61527970-5d40-11e6-8d58-0ab44dd732c7.png)
+
+Keşif yapılacak hedef seçilir. 
+
+![](https://cloud.githubusercontent.com/assets/20702065/17469903/62b21b18-5d40-11e6-8b1b-5f3d6d1726f3.png)
+
+Alınacak aksiyon belirlenerek kural kaydedilir.
+
+![](https://cloud.githubusercontent.com/assets/20702065/17469907/64278adc-5d40-11e6-8b74-ba3d99e31e8d.png)
