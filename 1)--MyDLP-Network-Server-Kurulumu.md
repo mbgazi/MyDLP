@@ -1,5 +1,5 @@
 ##MyDLP Çözümü
-MyDLP ağ ve son kullanıcı tarafından kritik ve gizli verilerin dışarıya çıkmasını önlemeyi amaçlayan bir veri sızıntısı önleme çözümüdür. 
+MyDLP ağ ve son kullanıcı tarafından kritik ve gizli verilerin dışarıya çıkmasını önlemeyi amaçlayan bir veri sızıntısı önleme çözümüdür. Daha önce open source olan ürün Comodo tarafından satın alınmıştır.
 MyDLP çözümünün network server ve endpoint olmak üzere iki yazılımı bulunmaktadır. Aşağıdaki adresten bu yazılımlar indirilebilir.
 [https://www.mydlp.com/getting-started/#download](https://www.mydlp.com/getting-started/#download)
 ## MyDLP Network Server Kurulumu
