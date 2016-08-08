@@ -58,7 +58,7 @@ MyDLP yönetim politikalarında çok sayıda kural tipi bulunmaktadır. Aşağı
 
 ### Veri Keşif Kuralı Oluşturma
 
-Veri Keşif kuralları ile kritik ve hassas veri içeren dosyalar keşfedilebilir. Hedefler, keşif zamanı, aranacak bilgi ve alınacak aksiyon keşif kurallarında belirlenebilir.  
+Veri Keşif kuralları ile kritik ve hassas veri içeren dosyalar keşfedilebilir. Hedefler, aranacak bilgi ve alınacak aksiyon keşif kurallarında belirlenebilir.  
 
 Keşif Kuralı oluşturmak için "Policy" e tıklanır ve sol taraftaki menüden "Discovery Policy" seçilir. 
 
@@ -67,6 +67,10 @@ Keşif Kuralı oluşturmak için "Policy" e tıklanır ve sol taraftaki menüden
 Keşif yapılacak hedef seçilir. 
 
 ![](https://cloud.githubusercontent.com/assets/20702065/17469903/62b21b18-5d40-11e6-8b1b-5f3d6d1726f3.png)
+
+Aranacak bilgi belirlenir.
+
+![](https://cloud.githubusercontent.com/assets/20702065/17469909/66b9c580-5d40-11e6-95cf-adef5fa7ba54.png)
 
 Alınacak aksiyon belirlenerek kural kaydedilir.
 
