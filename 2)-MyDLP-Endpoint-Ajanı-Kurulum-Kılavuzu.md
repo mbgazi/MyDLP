@@ -18,14 +18,13 @@ MyDLP Endpoint kurulmadan önce MyDLP Network Server kurulmalıdır. MyDLP Netwo
   * İkinci satırdaki mydlp de server IP si ile değiştirilir. 
   * MYDLP_SHARE=”\\SİZİNSERVERIPniz\downloads”
   * CTRL+X ve Y ye basılarak dosyadan çıkılır. 
-!!!!!!!!!!!!!EKRAN ÇIKTISI KOYYYYYYY**
+![](https://cloud.githubusercontent.com/assets/20702065/17469949/cd30496a-5d40-11e6-9bd1-f6713d25ce35.png)
 3. Kuruluma başlamadan önce ayrıca bağlı paketlerin kurulumu aşağıdaki adımlar izlenerek gerçekleştirilir.
 MyDLP Serverına SSH ile bağlanılır.
 
   * "sudo mydlp-download-xp-deps" komutu yazılır.
   * İlgili bağlı dosyalar /usr/share/mydlp/endpoint/deps/ dizinine indirilir.
-
-!!!!!!!!!!!!!!EKRAN ÇIKTISI KOYYYYYYY**
+![](https://cloud.githubusercontent.com/assets/20702065/17469950/d04779f2-5d40-11e6-8b40-75c22684e54a.png)
 
 4. MyDLP Endpoint ajanı server üzerindeki "\\mydlpserverip\downloads" dosyadan veya 1. maddedeki yöntem ile indirilir.
 
