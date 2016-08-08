@@ -30,8 +30,6 @@ MyDLP Serverına SSH ile bağlanılır.
 
 5. Son kullanıcı makinede endpoint agent .msi uzantılı dosyaya tıklanarak kurulum sihirbazı açılır.
 
-![](https://cloud.githubusercontent.com/assets/20702065/17460715/d84371e0-5c7a-11e6-9e1b-262a28f2b7d8.png)
-
 ![](https://cloud.githubusercontent.com/assets/20702065/17460716/dc2fa6e8-5c7a-11e6-94c7-71eb542529de.png)
 6. MyDLP Server IP adresi girilir ve "next" ile devam edilir.
 
