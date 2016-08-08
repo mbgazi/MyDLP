@@ -3,6 +3,7 @@ Bu bölümde çok sayıda örnek MyDLP Yönetim Politikası oluşturulmuş, son 
 # Web Kuralı (Kredi Kartı Bilgisi İzleme)
 * MyDLP Server Yönetim Arayüzüne bağlanılır. 
 * Policy/General Policy'ye tıklanır. Add butonuna basılır. Kural oluşturma sihirbazı başlar.
+* "Web Rules" seçilir, kuralın adı yazılır..
 
 ![](https://cloud.githubusercontent.com/assets/20702065/17469558/0dbb1586-5d3d-11e6-8bbc-48f049844c6a.png)
 
@@ -37,6 +38,30 @@ Bu bölümde çok sayıda örnek MyDLP Yönetim Politikası oluşturulmuş, son 
 ![](https://cloud.githubusercontent.com/assets/20702065/17470901/bed4f340-5d48-11e6-93c9-613fd9adfd9d.png)
 ![](https://cloud.githubusercontent.com/assets/20702065/17470904/c0733202-5d48-11e6-9747-d881ab26228f.png)
 
+# Printer Kuralı Oluşturmak
+* MyDLP Server Yönetim Arayüzüne bağlanılır. 
+* Policy/General Policy'ye tıklanır. Add butonuna basılır. Kural oluşturma sihirbazı başlar.
+* Printer kural tipi seçilir. 
+
+![](https://cloud.githubusercontent.com/assets/20702065/17469607/5b6e4406-5d3d-11e6-9516-0254e047c57c.png)
+
+* Kaynaklar seçilir.
+* Hedefler seçilir. 
+* İncelenecek veri tipi olarak kredi kartı bilgisi seçilir.
+* Aksiyon olarak "Block" seçilir.
+
+![](https://cloud.githubusercontent.com/assets/20702065/17469572/26885cd6-5d3d-11e6-9fc7-78ad65fb9ac3.png)
+
+* Son kullanıcı makinesinde bir notepad açılır. Kredi kartı numaraları yazılır. Daha sonra bu dokümanı yazdırmak denenir.
+
+* MyDLP Endpoint Ajanının yazdırma işlemini yaptırmadığı, engellediği görülür.
+
+![](https://cloud.githubusercontent.com/assets/20702065/17470916/cfaa5304-5d48-11e6-8f9d-0f502c4ecfb6.png)
+
+* MyDLP Network Server Yönetim Arayüzü üzerinde logun geldiği kontrol edilir.
+
+![](https://cloud.githubusercontent.com/assets/20702065/17470921/d1e515f0-5d48-11e6-8e85-4edb31f7a1b0.png)
+
 # Panoya Kopyalama/Yapıştırma Kuralı 
 
 * MyDLP Server Yönetim Arayüzüne bağlanılır. 
@@ -57,30 +82,28 @@ Bu bölümde çok sayıda örnek MyDLP Yönetim Politikası oluşturulmuş, son 
 
 ![](https://cloud.githubusercontent.com/assets/20702065/17470909/c629b612-5d48-11e6-83a5-4c0c4e3dc85d.png)
 
-# Printer Kuralı Oluşturmak
+# Web Kuralı Oluşturma (keyword) 
+
 * MyDLP Server Yönetim Arayüzüne bağlanılır. 
 * Policy/General Policy'ye tıklanır. Add butonuna basılır. Kural oluşturma sihirbazı başlar.
-* Printer kural tipi seçilir. 
+* "Web Rules" seçilir, kuralın adı yazılır.
 
-![](https://cloud.githubusercontent.com/assets/20702065/17469607/5b6e4406-5d3d-11e6-9516-0254e047c57c.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17469595/454e9bc6-5d3d-11e6-8a71-066704c545a2.png)
 
-* Kaynaklar seçilir.
-* Hedefler seçilir. 
-* İncelenecek veri tipi olarak kredi kartı bilgisi seçilir.
+* Sırasıyla Kaynaklar, Hedefler seçilir. 
 
-![](https://cloud.githubusercontent.com/assets/20702065/17469612/630b8cb4-5d3d-11e6-9d5a-d4ed9e4fca4f.png)
+* İncelenecek veri tipleri seçilir.
 
-* Aksiyon olarak "Block" seçilir.
-![](https://cloud.githubusercontent.com/assets/20702065/17469619/6c2b142c-5d3d-11e6-8cf3-37c0bfe4efd1.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17469601/5113492a-5d3d-11e6-8c32-072125fef137.png)
 
-* Son kullanıcı makinesinde bir notepad açılır. Kredi kartı numaraları yazılır. Daha sonra bu dokümanı yazdırmak denenir.
+* Alınacak aksiyon olarak Log seçilir.
 
-![](https://cloud.githubusercontent.com/assets/20702065/17470914/cca8f0fc-5d48-11e6-8e67-0994230a676d.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17469594/3fe5beee-5d3d-11e6-87ab-72b36b0f820e.png)
 
-* MyDLP Endpoint Ajanının yazdırma işlemini yaptırmadığı, engellediği görülür.
+* Son kullanıcı makinesinde bir internet tarayıcısı açılır. dlptest.com adresine gidilerek, seçilen keywordler yazılarak post edilir.
 
-![](https://cloud.githubusercontent.com/assets/20702065/17470916/cfaa5304-5d48-11e6-8f9d-0f502c4ecfb6.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17470892/b42811f2-5d48-11e6-976e-a4376cf74c33.png)
 
-* MyDLP Network Server Yönetim Arayüzü üzerinde logun geldiği kontrol edilir.
+* MyDLP Server Yönetim Arayüzünde Loglar sekmesine tıklanır. Burada keyword kuralın tetiklediği logların oluşup oluşmadığı kontrol edilir. 
 
-![](https://cloud.githubusercontent.com/assets/20702065/17470921/d1e515f0-5d48-11e6-8e85-4edb31f7a1b0.png)
+![](https://cloud.githubusercontent.com/assets/20702065/17470481/646d7d26-5d45-11e6-8c11-b8a12cdf1efe.png)
